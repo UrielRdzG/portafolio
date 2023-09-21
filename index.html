@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Uriel Rodriguez">
+        <meta name="Portafolio, muestra de conocimientos">
+        <meta name="keywords" content="HTML, CSS, Frontend, bootstrap">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- fuente -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        
+        <title>Inicio</title>
+        <link rel="icon" type="image/x-icon" href="imgs/logo.png">
+    </head>
+    <body>
+        
+        <!--barra de navegacion-->
+        <nav class="navbar navbar-expand-md navbar-light bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <i class="bi bi-house-door-fill logo"></i>
+                  </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- fin barra de navegacion   -->
+
+          <!-- Hero -->
+          <section class="hero align-items-stretch">
+            <div class="hero-principal">
+                <i class="bi bi-person-fill foto"></i>
+                <h1>Hola Hola!</h1>
+                <h2>Soy Uriel Rodriguez, estudiante de Ing. en Sistemas Computacionales</h2>
+            </div>
+            <div class="hero-inferior">
+                <!-- <img class="hero-inferior-imagen img-fluid" src="imgs/pizzarra.png" alt=""> -->
+            </div>
+          </section>
+          <!-- fin Hero -->
+
+          <!-- sobre mi -->
+          <section id="sobre-mi" class="sobre-mi seccion-oscura">
+            <div class="contenedor">
+              <h2 class="seccion-titulo">Conoce a Uriel Rodriguez</h2>
+              <p class="seccion-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis numquam saepe reprehenderit eum illo repellat unde similique porro perferendis nesciunt culpa vitae sequi atque, commodi et nostrum suscipit at ducimus adipisci voluptatem in cum nulla veniam dolor. Nisi doloribus aliquam eaque optio, veniam inventore illum alias, non iure excepturi unde!</p>
+            </div>
+          </section>
+          <!-- fin sobre mi -->
+
+          <!-- Hobbies -->
+          <section class="hobbies justify-content-start">
+            <div class="card" style="width: 18rem;">
+              <div class="card-header">
+                Hobbies
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item lista">Hobbie 1</li>
+                <li class="list-group-item lista">Hobbie 2</li>
+                <li class="list-group-item lista">Hobbie 3</li>
+              </ul>
+            </div>
+          </section>
+          <!-- fin hobbies -->
+
+          <!-- experience -->
+          <section class="experiencia seccion-clara">
+            <div class="container text-center">
+              <div class="row">
+                <div class="columna col-12 col-md-6">
+                  <i class="bi bi-laptop"></i>
+                  <p class="experiencia-titulo">Desarrollo Web</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dignissimos excepturi vero fuga consequuntur. Quod, quisquam! Modi illo quae, suscipit mollitia fuga laudantium inventore non iusto praesentium enim eum sit.</p>
+                  <div class="badges-contenedor">
+                    <span class="badge text-bg-dark">HTML</span>
+                    <span class="badge text-bg-dark">CSS</span>
+                    <span class="badge text-bg-dark">JavaScript</span>
+                    <span class="badge text-bg-dark">Bootstrap</span>
+                  </div>
+                </div>
+                <div class="columna col-12 col-md-6">
+                  <i class="bi bi-book"></i>
+                  <p class="experiencia-titulo">Estudiante</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dignissimos excepturi vero fuga consequuntur. Quod, quisquam! Modi illo quae, suscipit mollitia fuga laudantium inventore non iusto praesentium enim eum sit.</p>
+                  <div class="badges-contenedor">
+                    <span class="badge text-bg-dark">ESCOM</span>
+                    <span class="badge text-bg-dark">CECyT 9</span>
+                    <span class="badge text-bg-dark">Tecnico en programacion</span> 
+                  </div>
+                </div>
+                
+
+              </div>
+            </div>
+          </section>
+          <!-- fin exp -->
+
+          <!-- proyectos -->
+          <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+            <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+            <h3 class="seccion-descripcion">Algunos de mis proyectos</h3>
+            <div class="container text-center proyectos-contenedor">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imgs/proyectomuestra.jpg" alt="proyecto 1">
+                    <div class="overlay">
+                      <p>Proyecto 1</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imgs/proyectomuestra.jpg" alt="proyecto 1">
+                    <div class="overlay">
+                      <p>Proyecto 2 </p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imgs/proyectomuestra.jpg" alt="proyecto 1">
+                    <div class="overlay">
+                      <p>Proyecto 3</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imgs/proyectomuestra.jpg" alt="proyecto 1">
+                    <div class="overlay">
+                      <p>Proyecto 4</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imgs/proyectomuestra.jpg" alt="proyecto 1">
+                    <div class="overlay">
+                      <p>Proyecto 5</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imgs/proyectomuestra.jpg" alt="proyecto 1">
+                    <div class="overlay">
+                      <p>Proyecto 6</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                          <i class="bi bi-laptop"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-dark">Ver mas proyectos
+                  <i class="bi bi-arrow-up-right-circle-fill"></i>
+                </button>
+              </a>
+            </div>
+          </section>
+          <!-- fin proyectos -->
+
+          <!-- testimonio -->
+          <section class="testimonio seccion-clara">
+            <h2 class="seccion-titulo">Testimonios</h2>
+            <h3 class="seccion-descripcion">Algunos testimonios de maestros y compañeros</h3>
+            <div id="testimonio-carrusel" class="carousel carousel-dark slide">
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="imgs/persona.png" alt="Foto Persona">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sint iure perspiciatis mollitia aut soluta nostrum accusantium temporibus voluptates delectus sunt voluptatum, consectetur suscipit! In molestias voluptatum repudiandae eius. Illum excepturi incidunt magnam doloribus error cum beatae aspernatur soluta exercitationem.</p>
+                    <div class="testimonio-info">
+                      <p class="nombrePersona">Nombre ApellidoPaterno ApellidoMaterno</p>
+                      <p class="que-es">Maestro</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="imgs/persona.png" alt="Foto Persona">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sint iure perspiciatis mollitia aut soluta nostrum accusantium temporibus voluptates delectus sunt voluptatum, consectetur suscipit! In molestias voluptatum repudiandae eius. Illum excepturi incidunt magnam doloribus error cum beatae aspernatur soluta exercitationem.</p>
+                    <div class="testimonio-info">
+                      <p class="nombrePersona">Nombre ApellidoPaterno ApellidoMaterno</p>
+                      <p class="que-es">Maestro 2</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="imgs/persona.png" alt="Foto Persona">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sint iure perspiciatis mollitia aut soluta nostrum accusantium temporibus voluptates delectus sunt voluptatum, consectetur suscipit! In molestias voluptatum repudiandae eius. Illum excepturi incidunt magnam doloribus error cum beatae aspernatur soluta exercitationem.</p>
+                    <div class="testimonio-info">
+                      <p class="nombrePersona">Nombre ApellidoPaterno ApellidoMaterno</p>
+                      <p class="que-es">Alumno</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonio-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonio-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          </section>
+          <!-- fin testimonios -->
+
+          <!-- Contacto -->
+          <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+              <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                  <div class="col-12 col-md-4 seccion-titulo">
+                    Hablemos
+                  </div>
+                  <div class="col-12 col-md-4 descripcion">
+                    Contactame para desarrollo de algun proyecto
+                  </div>
+                  <div class="col-12 col-md-4 seccion-titulo">
+                    <a href="mailto: rodriguez.garcia.pedro.uriel@gmail.com">
+                      <button type="button">
+                        Contacto
+                        <i class="bi bi-envelope-fill"></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- redes sociales-footer -->
+          <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+            <p class="footer-texto text-center">Mis redes sociales<br>!Contactame ahora!</p>
+            <div class="iconos-redes d-flex flex-wrap align-items-center justify-content-center">
+              <a href="https://github.com/UrielRdzG" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="www.facebook.com/100004137737321" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/urielrdzg/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="mailto: rodriguez.garcia.pedro.uriel@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+            </div>
+            <div class="derechos-autor">
+              Creado por Uriel Rodriguez (2023) &#169;
+            </div>
+          </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
